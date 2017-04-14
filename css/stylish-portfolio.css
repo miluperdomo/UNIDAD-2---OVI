@@ -158,7 +158,7 @@ hr.small {
     background: url(../img/bg.jpg) no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: 828px 145px;
+    background-size: 1024px 145px;
     -o-background-size: cover;
 }
 
