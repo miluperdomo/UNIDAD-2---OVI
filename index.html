@@ -98,7 +98,7 @@
                         <p>En este enlace se descarga Git para diferentes sistemas operativos: <a href="https://git-scm.com/downloads" target="_blank">https://git-scm.com/downloads</a>
                         se siguen las instrucciones básicas de instalación, , cuando el programa este instalado aparecerá una aplicación llamada Git Bash, en donde se pondrán los comandos
                         que se usaran parar manejar los repositorios, algunos de los comandos básicos son: </p>
-                        <ul>
+                        <ul class = "git">
                           <li><em>git init: </em>Crea un repositorio de manera local.</li>
                           <li><em>git clone: </em>Crea una copia de un repositorio local o web dando el URL.</li>
                           <li><em>git add: </em>Agrega uno o varios archivos al repositorio actual.</li>
@@ -106,9 +106,9 @@
                         </ul>
                         <p>Para más información visitar la documentación de Git <a href="https://git-scm.com/docs/" target="_blank">https://git-scm.com/docs/</a></p>
                       </section>
-                    
+
                      <hr>
-     
+
                       <section id="lecturaGithub">
                         <h3>Github</h3>
                         <h4>¿Qué es Github?</h4>
@@ -219,7 +219,7 @@ creamos además permite a otras personas entender, la estructura del documento d
     </body>
   </html>
 </xmp>
-    
+
 </section>
 
 <hr class= "separar">
@@ -312,7 +312,7 @@ creamos además permite a otras personas entender, la estructura del documento d
                     <h2>MULTIMEDIA</h2>
                     <hr class="small">
                     <div class="row">
-                     
+
                     </div>
                     <!-- /.row (nested) -->
                 </div>
@@ -335,14 +335,27 @@ creamos además permite a otras personas entender, la estructura del documento d
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
+                    <h2>Actividades</h2>
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                </a>
+
+
+
+                              <section>
+                                  <h3> Cambiar colores en CSS3 </h3>
+                                  <p>CSS3 nos permite cambiar de colores de diferentes maneras, una de ellas usando rojo, verde y azul,
+                                    a continuación se muestra una ejemplo de cómo los diferentes valores de cada color cambia el producto final.</p>
+                                  <div id = "cuadroColores"></div>
+                                  <input id="colorRojo" type="range" min= "0" max="250" name="" value="0" step="10"> Rojo (<span id="cantidadRojo">0</span>)
+                                  <br>
+                                  <input id="colorVerde" type="range" min= "0" max="250" name="" value="0" step="10"> Verde (<span id="cantidadVerde">0</span>)
+                                  <br>
+                                  <input id="colorAzul" type="range" min= "0" max="250" name="" value="0" step="10"> Azul (<span id="cantidadAzul">0</span>)
+                                </section>
+
+
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -352,13 +365,7 @@ creamos además permite a otras personas entender, la estructura del documento d
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                </a>
-                            </div>
-                        </div>
+
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
@@ -379,13 +386,13 @@ creamos además permite a otras personas entender, la estructura del documento d
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Autores</strong>
+                    <h4 id = "contact"><strong>Autores</strong>
                     </h4>
                     <p>Andrea Milena perdomo Madrigal</p>
                     <p>Julian Andres Morales Veloza</p>
                         <br><p>Programa: Ingenieria de Sistemas</p>
                     <br><p>Diseño de Paginas WEB</p>
-                    
+
                     <br>
                     <ul class="list-inline">
                         <li>
@@ -406,6 +413,8 @@ creamos además permite a otras personas entender, la estructura del documento d
         <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
     </footer>
 
+    <!-- Colores -->
+    <script src="js/colores.js" charset="utf-8"></script>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
