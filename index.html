@@ -325,63 +325,42 @@ creamos además permite a otras personas entender, la estructura del documento d
         <!-- /.container -->
     </section>
 
-    <!-- Callout -->
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
-        </div>
-    </aside>
-
-    <!-- Portfolio -->
+   <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
+                  <h2>Actividades</h2>
+                      <hr class="small">		                      
+                      <div class="row">		                      
+                          <div class="col-md-6">		                          
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                                </a>
-                            </div>
+                             <section>
+                               <h3> Cambiar colores en CSS3 </h3>
+                                 <p>CSS3 nos permite cambiar de colores de diferentes maneras, una de ellas usando rojo, verde y azul,
+                                 a continuación se muestra una ejemplo de cómo los diferentes valores de cada color cambia el producto final.</p>
+                                 <div id = "cuadroColores"></div>
+                                 <input id="colorRojo" type="range" min= "0" max="250" name="" value="0" step="10"> Rojo (<span id="cantidadRojo">0</span>)
+                                  <br>
+                                 <input id="colorVerde" type="range" min= "0" max="250" name="" value="0" step="10"> Verde (<span id="cantidadVerde">0</span>)
+                                  <br>
+                                 <input id="colorAzul" type="range" min= "0" max="250" name="" value="0" step="10"> Azul (<span id="cantidadAzul">0</span>)
+                              </section>
+                             </div>		                              
+                            </div>		                      
+                          <div class="col-md-6">		                       
                         </div>
                     </div>
-                </div>
-                <!-- /.col-lg-10 -->
+                 </div>
+              </div>
             </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
     </section>
-    <!-- Footer -->
+<!-- Footer -->
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Autores</strong>
+                    <h4 id = "contact"><strong>Autores</strong>
                     </h4>
                     <p>Andrea Milena perdomo Madrigal</p>
                     <p>Julian Andres Morales Veloza</p>
@@ -407,7 +386,9 @@ creamos además permite a otras personas entender, la estructura del documento d
         </div>
         <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
     </footer>
-
+    <!-- Colores -->
+    <script src="js/colores.js" charset="utf-8"></script>
+    
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
